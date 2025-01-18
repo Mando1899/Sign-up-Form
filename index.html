@@ -8,7 +8,12 @@
     </head>
     <body>
         <div id="main-container">
-            <div id="bg-img"></div>
+            <div id="bg-img">
+                <div id="logo-container">
+                    <img src="odin-lined.png" alt="odin logo">
+                    <h1>ODIN</h1>
+                </div>   
+            </div>
             <div id="form-container">
                 <div id="text"> 
                     <h2>
@@ -21,36 +26,50 @@
                 <div id="form">
                     <form action="">
                         <div id="input-container">
-                            <label for="first-name">
-                                <p>FIRST NAME</p>
-                            </label>
-                            <input type="text" id="first-name" name="first-name">
+                            <div class="input-container">
+                                <label for="first-name">
+                                    <p>FIRST NAME</p>
+                                </label>
+                                <input type="text" id="first-name" name="first-name">
+                            </div>
                             
-                            <label for="last-name">
-                                <p>LAST NAME</p>
-                            </label>
-                            <input type="text" id="last-name" name="last-name">
-                            
-                            <label for="user-email">
-                                <p>EMAIL</p>
-                            </label>
-                            <input type="email" id="user-email" name="user-email">
+                            <div class="input-container">
+                                <label for="last-name">
+                                    <p>LAST NAME</p>
+                                </label>
+                                <input type="text" id="last-name" name="last-name">
+                            </div>
+                           
+                            <div class="input-container">
+                                <label for="user-email">
+                                    <p>EMAIL</p>
+                                </label>
+                                <input type="email" id="user-email" name="user-email">
+                            </div>
 
-                            <label for="user-number">
-                                <p>PHONE NUMBER</p>
-                            </label>
-                            <input type="number" id="user-number" name="user-number">
+                            <div class="input-container">
+                                <label for="user-number">
+                                    <p>PHONE NUMBER</p>
+                                </label>
+                                <input type="number" id="user-number" name="user-number">
+                            </div>
 
-                            <label for="user-password">
-                                <p>PASSWORD</p>
-                            </label>
-                            <input type="password" id="user-password" name="user-password">
+                            <div class="input-container">
+                                <label for="user-password">
+                                    <p>PASSWORD</p>
+                                </label>
+                                <input type="password" id="user-password" name="user-password">
+                            </div>
 
-                            <label for="confirm-password">
-                                <p>CONFIRM PASSWORD</p>
-                            </label>
-                            <input type="password" id="confirm-password" name="confirm-password">
+                            <div class="input-container">
+                                <label for="confirm-password">
+                                    <p>CONFIRM PASSWORD</p>
+                                </label>
+                                <input type="password" id="confirm-password" name="confirm-password">
+                            </div>
                         </div>
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="">Log in</a></p>
                     </form>
                 </div>
             </div>
