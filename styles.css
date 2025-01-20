@@ -21,6 +21,7 @@ body {
 
 
 #bg-img {
+    position: relative;
     height: 150vh;
     width: 1300px;
     background-image: url(Background.avif);
@@ -117,3 +118,30 @@ button {
     font-size: 1em;
     font-weight: 700;
 }
+
+form > p {
+    font-weight: 500;
+}
+
+form > p > a {
+    text-decoration: none;
+    color: #596D48;
+}
+
+#credits {
+    position: static;
+    bottom: 0;
+    color: white;
+    font-weight: 200;
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 0;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    margin-right: auto;     
+}
+
+#credits > a {   
+    color: white;
+}
+
