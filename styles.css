@@ -107,6 +107,15 @@ input {
     font-size: 1em;
 }
 
+input[type="password"]:invalid {
+    border: 2px solid red;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid blue;
+}
+
 button {
     padding: 13px 50px;
     margin-left: var(--form-margin);
